@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #d1eaff, #e0ffe7); /* Light blue to light green gradient */
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-box {
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff; /* White background for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #16a085; /* Teal for a fresh and inviting feel */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e0; /* Light grey border */
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #16a085; /* Teal border when focused */
+  box-shadow: 0 0 8px rgba(22, 160, 133, 0.3); /* Teal shadow */
+}
+
+.login-button {
+  width: 100%;
+  background-color: #16a085; /* Teal button */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #12876d; /* Darker teal on hover */
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link {
+  color: #16a085; /* Teal link */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.signup-link:hover {
+  color: #12876d; /* Darker teal on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-box {
+    padding: 20px;
+  }
+
+  .login-title {
+    font-size: 24px;
+  }
+
+  .input-field {
+    padding: 10px;
+  }
+
+  .login-button {
+    padding: 10px;
+  }
+}

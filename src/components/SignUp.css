@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e3ffe7); /* Soft aqua to light mint gradient */
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(to right, #e6f7ff, #e6ffe7); /* Light blue to light mint gradient */
+}
+
+.signup-box {
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff; /* White background for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.signup-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00796b; /* Teal for a calming effect */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b0bec5; /* Light grey border */
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #00796b; /* Teal border on focus */
+  box-shadow: 0 0 8px rgba(0, 121, 107, 0.3); /* Teal shadow */
+}
+
+.signup-button {
+  width: 100%;
+  background-color: #00796b; /* Teal button */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #00695c; /* Darker teal on hover */
+}
+
+.login-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link {
+  color: #00796b; /* Teal link */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.login-link:hover {
+  color: #004d40; /* Darker teal on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-box {
+    padding: 20px;
+  }
+
+  .signup-title {
+    font-size: 24px;
+  }
+
+  .input-field {
+    padding: 10px;
+  }
+
+  .signup-button {
+    padding: 10px;
+  }
+}
